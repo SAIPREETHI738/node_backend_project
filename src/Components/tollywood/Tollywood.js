@@ -8,7 +8,7 @@ const Tollywood = () => {
 
   useEffect(() => {
     axios
-      .get("https://blogbackendapp.herokuapp.com/api/blog")
+      .get("https://nodebackend-app.herokuapp.com/api/blog")
       .then((res) => {
         setTolly(res.data);
       });

@@ -8,7 +8,7 @@ const Technology = () => {
 
   useEffect(() => {
     axios
-      .get("https://blogbackendapp.herokuapp.com/api/blog")
+      .get("https://nodebackend-app.herokuapp.com/api/blog")
       .then((res) => {
         setTech(res.data);
       });
