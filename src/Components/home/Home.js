@@ -9,7 +9,7 @@ const Home = () => {
 
   useEffect(() => {
     axios
-      .get("https://blogbackend-app.herokuapp.com")
+      .get("https://blogbackendapp.herokuapp.com/api/blog")
       .then((res) => {
         setHome(res.data);
       });
