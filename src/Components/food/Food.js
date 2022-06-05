@@ -8,7 +8,7 @@ const Food = () => {
     <div>
       <h1 className="tollyh">Contact Us</h1><hr className="thhr"/>
       <div className="name">
-        <h1 className="nam">Name : Ajay <br />Email : ajayadavikatla14@gmail.com <br /> contact : 9154543021 <span className="na"></span></h1>
+        <h1 className="nam">Name : preethi <br />Email : preethipulletikurthi@gmail.com <br /> contact : 9021000000 <span className="na"></span></h1>
         <div className="social">
         <a href="https://www.facebook.com"><i className="fab fa-facebook-square"></i></a>
         <a href="https://www.instagram.com"><i className="fab fa-instagram-square"></i></a>
